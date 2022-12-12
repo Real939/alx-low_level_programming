@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* main - Prints all combination of single digits
+* main - Prints all combination of single digits with comma
 * Return: Always 0
 */
 int main(void)
