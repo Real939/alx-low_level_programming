@@ -5,13 +5,13 @@
 */
 int main(void)
 {
-int n;
-for (n = 48; n < 58; n++)
-
-putchar(n);
-if (n != 57)
-{
+int a;
+for (a= 0; a < 100; a++) {
+putchar(a + '0');
+if (a < 99) {
 putchar(',');
+putchar(' ');
+}
 }
 putchar('\n');
 return (0);
